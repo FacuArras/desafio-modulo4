@@ -13,7 +13,7 @@ function addHeader(el) {
               </ul>
             </nav>
             <img
-              src="../imgs/menu-icono.png"
+              src="./imgs/menu-icono.png"
               alt="header-icono"
               class="header__menu-icono"
             />
