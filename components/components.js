@@ -2,13 +2,13 @@ function addHeader(el) {
   const headerEl = document.createElement("header");
 
   headerEl.innerHTML = `
-      <a href="./index.html" class="logo">ARRASCAETA</a>
+      <a href="../index.html" class="logo">ARRASCAETA</a>
             <nav class="header__links">
               <ul class="header__list">
                 <li class="header__items">
-                  <a href="./portfolio.html" class="header__link">Portfolio</a>
-                  <a href="./servicios.html" class="header__link">Servicios</a>
-                  <a href="./contact.html" class="header__link">Contacto</a>
+                  <a href="../portfolio.html" class="header__link">Portfolio</a>
+                  <a href="../servicios.html" class="header__link">Servicios</a>
+                  <a href="../contact.html" class="header__link">Contacto</a>
                 </li>
               </ul>
             </nav>
@@ -20,9 +20,9 @@ function addHeader(el) {
           </header>
           <div class="menu">
             <h2 class="menu__close">X</h2>
-            <a href="./portfolio.html" class="menu__option">Portfolio</a>
-        <a href="./servicios.html" class="menu__option">Servicios</a>
-        <a href="./contact.html" class="menu__option">Contacto</a>
+            <a href="../portfolio.html" class="menu__option">Portfolio</a>
+        <a href="../servicios.html" class="menu__option">Servicios</a>
+        <a href="../contact.html" class="menu__option">Contacto</a>
           </div>
       `;
   headerEl.classList.add("header");
