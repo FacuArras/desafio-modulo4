@@ -1,0 +1,37 @@
+@media (min-width: 960px) {
+  .header,
+  .section__title {
+    background-image: linear-gradient(to left, #5f2c82, #49a09d);
+  }
+}
+
+
+@media (min-width: 960px) {
+  .section__cont {
+    gap: 4%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}
+
+.content__img {
+    width: 290px;
+    height: 175px;
+}
+
+@media (min-width: 960px) {
+  .content__description {
+    max-width: 360px;
+  }
+}
+
+.content__link {
+  display: inherit;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fc6f50;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 16px;
+}

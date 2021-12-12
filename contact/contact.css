@@ -1,0 +1,17 @@
+.header {
+  background-color: #000000;
+}
+
+body .contact {
+  background-color: #000000;
+}
+@media (min-width: 960px) {
+  body .contact,
+  header {
+    background-image: linear-gradient(to left, #67b26f, #4ca2cd);
+  }
+
+  .contact__title{
+      padding-top: 20px;
+  }
+}

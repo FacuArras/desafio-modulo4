@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="/components/components.js"></script>
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <section id="home" class="welcome">
+      <section class="section-header"></section>
+      <div class="welcome__titulos"></div>
+      <template id="welcome__template">
+        <h1 class="welcome__titulo titulo">Hola</h1>
+        <h2 class="welcome__subtitulo titulo titulo--sub">Soy Facundo</h2>
+      </template>
+    </section>
+
+    <section class="presentation">
+      <div class="presentation__cont"></div>
+      <template id="presentation__template">
+        <h2 class="titulo titulo--sub presentation__titulo">Soy Facundo</h2>
+        <p class="parrafo presentation__parrafo">
+          Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+          vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat
+          arcu elementum nisi ultrices cursus. Etiam sit amet aliquet lacus.
+          Integer ut iaculis augue, sit amet tincidunt ex. In eleifend justo et
+          sodales semper. Mauris nec tortor lectus. Curabitur nec ultricies
+          dolor.
+        </p>
+        <div class="presentation__persona-cont">
+          <img
+            src="/imgs/persona.png"
+            alt="persona"
+            class="presentation__persona"
+          />
+        </div>
+      </template>
+    </section>
+
+    <section class="services">
+      <h2 class="titulo titulo--services">Mis servicios</h2>
+      <div class="services__cont"></div>
+      <template id="services__template">
+        <div class="service">
+          <div class="service__cont-image">
+            <img
+              src="/imgs/service.png"
+              class="service__image"
+              alt="icono-computadora"
+            />
+          </div>
+          <h3 class="service__title">Hago cosas</h3>
+          <p class="parrafo service__parrafo">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </div>
+      </template>
+    </section>
+
+    <section class="contact"></section>
+    <section class="section-footer"></section>
+  </body>
+</html>
