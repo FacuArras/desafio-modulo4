@@ -242,9 +242,6 @@ body {
   }
 }
 
-.services__cont {
-  overflow: auto;
-}
 @media (min-width: 960px) {
   .services__cont {
     display: flex;
