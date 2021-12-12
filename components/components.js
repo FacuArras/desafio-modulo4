@@ -6,9 +6,9 @@ function addHeader(el) {
             <nav class="header__links">
               <ul class="header__list">
                 <li class="header__items">
-                  <a href="/portfolio.html" class="header__link">Portfolio</a>
-                  <a href="/servicios.html" class="header__link">Servicios</a>
-                  <a href="/contact.html" class="header__link">Contacto</a>
+                  <a href="./portfolio.html" class="header__link">Portfolio</a>
+                  <a href="./servicios.html" class="header__link">Servicios</a>
+                  <a href="./contact.html" class="header__link">Contacto</a>
                 </li>
               </ul>
             </nav>
