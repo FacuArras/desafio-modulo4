@@ -2,7 +2,7 @@ function addHeader(el) {
   const headerEl = document.createElement("header");
 
   headerEl.innerHTML = `
-      <a href="/index.html" class="logo">ARRASCAETA</a>
+      <a href="./index.html" class="logo">ARRASCAETA</a>
             <nav class="header__links">
               <ul class="header__list">
                 <li class="header__items">

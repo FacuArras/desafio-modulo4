@@ -388,7 +388,7 @@ footer {
 }
 
 .insta::after {
-  content: url("../imgs/icono-instagram.png");
+  content: url("./imgs/icono-instagram.png");
   width: 27px;
   height: 27px;
   margin: 7px;
@@ -397,7 +397,7 @@ footer {
 }
 
 .linkedin::after {
-  content: url("../imgs/icono-linkedin.png");
+  content: url("./imgs/icono-linkedin.png");
   width: 28px;
   height: 28px;
   margin: 7px;
@@ -406,7 +406,7 @@ footer {
 }
 
 .github::after {
-  content: url("../imgs/icono-github.png");
+  content: url("./imgs/icono-github.png");
   width: 29px;
   height: 29px;
   margin: 7px;
