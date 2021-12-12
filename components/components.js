@@ -13,16 +13,16 @@ function addHeader(el) {
               </ul>
             </nav>
             <img
-              src="/imgs/menu-icono.png"
+              src="../imgs/menu-icono.png"
               alt="header-icono"
               class="header__menu-icono"
             />
           </header>
           <div class="menu">
             <h2 class="menu__close">X</h2>
-            <a href="/portfolio.html" class="menu__option">Portfolio</a>
-        <a href="/servicios.html" class="menu__option">Servicios</a>
-        <a href="/contact.html" class="menu__option">Contacto</a>
+            <a href="./portfolio.html" class="menu__option">Portfolio</a>
+        <a href="./servicios.html" class="menu__option">Servicios</a>
+        <a href="./contact.html" class="menu__option">Contacto</a>
           </div>
       `;
   headerEl.classList.add("header");
@@ -68,7 +68,7 @@ function addContent(el) {
       <template id="content__template">
         <div class="content">
           <div class="content__cont-img">
-            <img src="/imgs/service.png" alt="" class="content__img" />
+            <img src="../imgs/service.png" alt="" class="content__img" />
           </div>
           <h3 class="content__title">Desarrollo de apps</h3>
           <p class="content__description parrafo">
